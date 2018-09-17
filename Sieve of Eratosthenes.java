@@ -30,11 +30,10 @@ public class Main
         
         //Now we have array which have true for prime values only, just printing them
         
-        int count=0;
         for(int q=2;q<arr.length;q++)
         {
             if(arr[q]==true)
-            System.out.println(arr[q]+" ");
+            System.out.print(q+" ");
 	}
     }
 }
